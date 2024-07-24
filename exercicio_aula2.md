@@ -1,9 +1,10 @@
 # Exercícios da Aula do dia 24/07/2024
 
-## Exercício 1: Criar um formulário de cadastro para os Livros, deve conter o campo para o Título do Livro, Autor, Categoria, Ano de Publicação e Ativo.
+## Exercício 1: Criar um formulário de cadastro para os Livros, deve conter o campo para o Título do Livro, Autor, Categoria, Ano de Publicação e Ativo. Ao final aplique CSS ao Formulário
+### Obs: Utilize os exemplos da documentação do W3School.
 
 ## Exercício 2:
-### 1 - Realizar o download da tabela de Livros a seguir
+### 1 - Realizar o download da tabela de Livros a seguir [Tabela CSV](https://docs.google.com/spreadsheets/d/17qfn_9NfDtZUteh5GjDCw951poi4kNY4rndevxINnfE/edit?usp=sharing)
 ### 2 - Crie um arquivo Python para ler os dados da Tabela com o Pandas
 ### 3 - Crie uma Classe Livros com os atributos do cadastro
 ### 4 - Desenvolva uma função para percorrer a tabela de Livros eles com a Classe Livros e salve cada instancia em uma lista de Livros
