@@ -1,4 +1,5 @@
 from flask import Flask
+from asgiref.wsgi import WsgiToAsgi
 
 app = Flask(__name__)
 
@@ -73,4 +74,9 @@ def listar_livros():
     </body>
 </html>
 """
+
+asgi_app = WsgiToAsgi(app)
+
+if __name__ == "__main__":
+    app.run()
 
