@@ -74,4 +74,3 @@ def listar_livros():
 </html>
 """
 
-app.run()
